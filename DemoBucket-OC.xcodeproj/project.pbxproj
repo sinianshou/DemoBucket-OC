@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8A634116C7A09B403D19FE6 /* Pods_DemoBucket_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */; };
+		EB3BFB651FC690EA00FCC168 /* MyRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3BFB641FC690EA00FCC168 /* MyRootTableViewController.m */; };
+		EB3BFB681FC6967F00FCC168 /* MyRootTableVCDS.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3BFB671FC6967F00FCC168 /* MyRootTableVCDS.m */; };
+		EB3BFB6B1FC6971100FCC168 /* MyRootTableVCD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3BFB6A1FC6971100FCC168 /* MyRootTableVCD.m */; };
+		EB3BFB6E1FC699C500FCC168 /* MyRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3BFB6D1FC699C500FCC168 /* MyRootTableViewCell.m */; };
+		EB8860991FD654D4000CC98B /* DynamicAnimatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8860981FD654D4000CC98B /* DynamicAnimatorTest.m */; };
+		EB88609C1FD68511000CC98B /* MyNavigationC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB88609B1FD68511000CC98B /* MyNavigationC.m */; };
 		EBA10F191FC5B1CC00473E29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA10F181FC5B1CC00473E29 /* AppDelegate.m */; };
 		EBA10F1C1FC5B1CC00473E29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA10F1B1FC5B1CC00473E29 /* ViewController.m */; };
 		EBA10F1F1FC5B1CD00473E29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA10F1D1FC5B1CD00473E29 /* Main.storyboard */; };
@@ -14,9 +21,27 @@
 		EBA10F241FC5B1CD00473E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA10F231FC5B1CD00473E29 /* Assets.xcassets */; };
 		EBA10F271FC5B1CD00473E29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA10F251FC5B1CD00473E29 /* LaunchScreen.storyboard */; };
 		EBA10F2A1FC5B1CD00473E29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA10F291FC5B1CD00473E29 /* main.m */; };
+		EBA10F331FC5BB5B00473E29 /* QSelfNameSetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA10F321FC5BB5B00473E29 /* QSelfNameSetMethod.m */; };
+		EBB5CBBD1FD79A4100D91FB0 /* MyTabBarC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB5CBBC1FD79A4100D91FB0 /* MyTabBarC.m */; };
+		EBB5CBBF1FD8154200D91FB0 /* CodeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB5CBBE1FD8154200D91FB0 /* CodeDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F20C261F8C31B8CA070C6FF /* Pods-DemoBucket-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBucket-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC.release.xcconfig"; sourceTree = "<group>"; };
+		8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoBucket_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1AA5EAB6529E604830855E /* Pods-DemoBucket-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBucket-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3BFB631FC690EA00FCC168 /* MyRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRootTableViewController.h; sourceTree = "<group>"; };
+		EB3BFB641FC690EA00FCC168 /* MyRootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRootTableViewController.m; sourceTree = "<group>"; };
+		EB3BFB661FC6967F00FCC168 /* MyRootTableVCDS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRootTableVCDS.h; sourceTree = "<group>"; };
+		EB3BFB671FC6967F00FCC168 /* MyRootTableVCDS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRootTableVCDS.m; sourceTree = "<group>"; };
+		EB3BFB691FC6971100FCC168 /* MyRootTableVCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRootTableVCD.h; sourceTree = "<group>"; };
+		EB3BFB6A1FC6971100FCC168 /* MyRootTableVCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRootTableVCD.m; sourceTree = "<group>"; };
+		EB3BFB6C1FC699C500FCC168 /* MyRootTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRootTableViewCell.h; sourceTree = "<group>"; };
+		EB3BFB6D1FC699C500FCC168 /* MyRootTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRootTableViewCell.m; sourceTree = "<group>"; };
+		EB8860971FD654D4000CC98B /* DynamicAnimatorTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicAnimatorTest.h; sourceTree = "<group>"; };
+		EB8860981FD654D4000CC98B /* DynamicAnimatorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicAnimatorTest.m; sourceTree = "<group>"; };
+		EB88609A1FD68511000CC98B /* MyNavigationC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationC.h; sourceTree = "<group>"; };
+		EB88609B1FD68511000CC98B /* MyNavigationC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationC.m; sourceTree = "<group>"; };
 		EBA10F141FC5B1CC00473E29 /* DemoBucket-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoBucket-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA10F171FC5B1CC00473E29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBA10F181FC5B1CC00473E29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +53,14 @@
 		EBA10F261FC5B1CD00473E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBA10F281FC5B1CD00473E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA10F291FC5B1CD00473E29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBA10F321FC5BB5B00473E29 /* QSelfNameSetMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSelfNameSetMethod.m; sourceTree = "<group>"; };
+		EBA10F351FC5BD6C00473E29 /* QuestionsCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionsCollection.h; sourceTree = "<group>"; };
+		EBA10F361FC5C19300473E29 /* QSelfNameSetMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSelfNameSetMethod.h; sourceTree = "<group>"; };
+		EBA10F381FC5C58300473E29 /* OptimizeLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptimizeLog.h; sourceTree = "<group>"; };
+		EBA10F391FC5C60400473E29 /* RunTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTime.h; sourceTree = "<group>"; };
+		EBB5CBBB1FD79A4100D91FB0 /* MyTabBarC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarC.h; sourceTree = "<group>"; };
+		EBB5CBBC1FD79A4100D91FB0 /* MyTabBarC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarC.m; sourceTree = "<group>"; };
+		EBB5CBBE1FD8154200D91FB0 /* CodeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +68,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A634116C7A09B403D19FE6 /* Pods_DemoBucket_OC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22C3573A31A0CAE90E0A116B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB1AA5EAB6529E604830855E /* Pods-DemoBucket-OC.debug.xcconfig */,
+				5F20C261F8C31B8CA070C6FF /* Pods-DemoBucket-OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB3BFB6F1FC699D000FCC168 /* MyRootTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EB3BFB631FC690EA00FCC168 /* MyRootTableViewController.h */,
+				EB3BFB641FC690EA00FCC168 /* MyRootTableViewController.m */,
+				EB3BFB661FC6967F00FCC168 /* MyRootTableVCDS.h */,
+				EB3BFB671FC6967F00FCC168 /* MyRootTableVCDS.m */,
+				EB3BFB691FC6971100FCC168 /* MyRootTableVCD.h */,
+				EB3BFB6A1FC6971100FCC168 /* MyRootTableVCD.m */,
+				EB3BFB6C1FC699C500FCC168 /* MyRootTableViewCell.h */,
+				EB3BFB6D1FC699C500FCC168 /* MyRootTableViewCell.m */,
+			);
+			name = MyRootTableView;
+			sourceTree = "<group>";
+		};
+		EB8860931FD65405000CC98B /* DynamicTest */ = {
+			isa = PBXGroup;
+			children = (
+				EB8860971FD654D4000CC98B /* DynamicAnimatorTest.h */,
+				EB8860981FD654D4000CC98B /* DynamicAnimatorTest.m */,
+			);
+			path = DynamicTest;
+			sourceTree = "<group>";
+		};
 		EBA10F0B1FC5B1CC00473E29 = {
 			isa = PBXGroup;
 			children = (
 				EBA10F161FC5B1CC00473E29 /* DemoBucket-OC */,
 				EBA10F151FC5B1CC00473E29 /* Products */,
+				22C3573A31A0CAE90E0A116B /* Pods */,
+				ECF102A86383704E33CB8802 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,16 +131,60 @@
 			children = (
 				EBA10F171FC5B1CC00473E29 /* AppDelegate.h */,
 				EBA10F181FC5B1CC00473E29 /* AppDelegate.m */,
+				EB88609A1FD68511000CC98B /* MyNavigationC.h */,
+				EB88609B1FD68511000CC98B /* MyNavigationC.m */,
+				EBB5CBBB1FD79A4100D91FB0 /* MyTabBarC.h */,
+				EBB5CBBC1FD79A4100D91FB0 /* MyTabBarC.m */,
 				EBA10F1A1FC5B1CC00473E29 /* ViewController.h */,
 				EBA10F1B1FC5B1CC00473E29 /* ViewController.m */,
-				EBA10F1D1FC5B1CD00473E29 /* Main.storyboard */,
+				EB8860931FD65405000CC98B /* DynamicTest */,
+				EB3BFB6F1FC699D000FCC168 /* MyRootTableView */,
+				EBA10F341FC5BD4A00473E29 /* HFiles */,
+				EBA10F311FC5BAE000473E29 /* QuestionsCollection */,
+				EBA10F371FC5C48A00473E29 /* RunTime */,
 				EBA10F231FC5B1CD00473E29 /* Assets.xcassets */,
 				EBA10F251FC5B1CD00473E29 /* LaunchScreen.storyboard */,
+				EBA10F1D1FC5B1CD00473E29 /* Main.storyboard */,
 				EBA10F281FC5B1CD00473E29 /* Info.plist */,
 				EBA10F291FC5B1CD00473E29 /* main.m */,
 				EBA10F201FC5B1CD00473E29 /* DemoBucket_OC.xcdatamodeld */,
+				EBB5CBBE1FD8154200D91FB0 /* CodeDemo.m */,
 			);
 			path = "DemoBucket-OC";
+			sourceTree = "<group>";
+		};
+		EBA10F311FC5BAE000473E29 /* QuestionsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				EBA10F361FC5C19300473E29 /* QSelfNameSetMethod.h */,
+				EBA10F321FC5BB5B00473E29 /* QSelfNameSetMethod.m */,
+			);
+			path = QuestionsCollection;
+			sourceTree = "<group>";
+		};
+		EBA10F341FC5BD4A00473E29 /* HFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EBA10F351FC5BD6C00473E29 /* QuestionsCollection.h */,
+				EBA10F391FC5C60400473E29 /* RunTime.h */,
+			);
+			name = HFiles;
+			sourceTree = "<group>";
+		};
+		EBA10F371FC5C48A00473E29 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				EBA10F381FC5C58300473E29 /* OptimizeLog.h */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		ECF102A86383704E33CB8802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBA10F2D1FC5B1CD00473E29 /* Build configuration list for PBXNativeTarget "DemoBucket-OC" */;
 			buildPhases = (
+				0CC3B4827E56390B86DA24F7 /* [CP] Check Pods Manifest.lock */,
 				EBA10F101FC5B1CC00473E29 /* Sources */,
 				EBA10F111FC5B1CC00473E29 /* Frameworks */,
 				EBA10F121FC5B1CC00473E29 /* Resources */,
+				C86C9F7BA930565E82AE4358 /* [CP] Embed Pods Frameworks */,
+				2CB241D870E178984936845E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,13 +256,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC3B4827E56390B86DA24F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoBucket-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB241D870E178984936845E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86C9F7BA930565E82AE4358 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EBA10F101FC5B1CC00473E29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB5CBBF1FD8154200D91FB0 /* CodeDemo.m in Sources */,
+				EB3BFB681FC6967F00FCC168 /* MyRootTableVCDS.m in Sources */,
 				EBA10F221FC5B1CD00473E29 /* DemoBucket_OC.xcdatamodeld in Sources */,
+				EB3BFB6B1FC6971100FCC168 /* MyRootTableVCD.m in Sources */,
+				EB3BFB651FC690EA00FCC168 /* MyRootTableViewController.m in Sources */,
+				EB8860991FD654D4000CC98B /* DynamicAnimatorTest.m in Sources */,
 				EBA10F1C1FC5B1CC00473E29 /* ViewController.m in Sources */,
+				EBA10F331FC5BB5B00473E29 /* QSelfNameSetMethod.m in Sources */,
+				EBB5CBBD1FD79A4100D91FB0 /* MyTabBarC.m in Sources */,
+				EB88609C1FD68511000CC98B /* MyNavigationC.m in Sources */,
+				EB3BFB6E1FC699C500FCC168 /* MyRootTableViewCell.m in Sources */,
 				EBA10F2A1FC5B1CD00473E29 /* main.m in Sources */,
 				EBA10F191FC5B1CC00473E29 /* AppDelegate.m in Sources */,
 			);
@@ -280,6 +461,7 @@
 		};
 		EBA10F2E1FC5B1CD00473E29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1AA5EAB6529E604830855E /* Pods-DemoBucket-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,11 +471,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Easer.DemoBucket-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		EBA10F2F1FC5B1CD00473E29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F20C261F8C31B8CA070C6FF /* Pods-DemoBucket-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Easer.DemoBucket-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
