@@ -21,6 +21,11 @@
 
 -(void)configSelf
 {
+    
+    NSDictionary* dic = @{@"RunTime":@[@"Method Swizzle", @"01"], @"Questions":@[@"QSelfNameSetMethod", @"02", @"03"], @"UIDynamicAnimator":@[@"吸附行为", @"推动行为", @"刚性附着", @"软性附着", @"碰撞检测"], @"数据结构":@[@"吸附行为", @"推动行为", @"刚性附着", @"软性附着", @"碰撞检测"]};
+    if (dic) {
+        self.dataMDic = [NSMutableDictionary dictionaryWithDictionary:dic];
+    }
     MyRootTableVCD* myRootTableVCDIVar = [[MyRootTableVCD alloc] init];
     myRootTableVCDIVar.myRootTableViewController = self;
     self.tableView.delegate = myRootTableVCDIVar;

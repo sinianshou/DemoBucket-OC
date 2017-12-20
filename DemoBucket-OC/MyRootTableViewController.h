@@ -10,4 +10,6 @@
 
 @interface MyRootTableViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableDictionary<NSString*, NSArray*>* dataMDic;
+
 @end

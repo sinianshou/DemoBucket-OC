@@ -11,9 +11,12 @@
 
 -(void)setName:(NSString *)newName
 {
+    
     NSLog(@"set name");
     self.name = newName;
     NSLog(@"self.name is %@", self.name);
 }
+
+
 @end
 
