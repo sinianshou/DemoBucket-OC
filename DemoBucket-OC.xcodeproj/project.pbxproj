@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FF94CF31FEAA9B800F70E05 /* LinearList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF94CF21FEAA9B800F70E05 /* LinearList.m */; };
+		5FF94CF61FEAAC2C00F70E05 /* StackAndQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF94CF51FEAAC2C00F70E05 /* StackAndQueue.m */; };
 		C8A634116C7A09B403D19FE6 /* Pods_DemoBucket_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */; };
 		EB3BFB651FC690EA00FCC168 /* MyRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3BFB641FC690EA00FCC168 /* MyRootTableViewController.m */; };
 		EB3BFB681FC6967F00FCC168 /* MyRootTableVCDS.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3BFB671FC6967F00FCC168 /* MyRootTableVCDS.m */; };
@@ -29,6 +31,10 @@
 /* Begin PBXFileReference section */
 		5F20C261F8C31B8CA070C6FF /* Pods-DemoBucket-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBucket-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC.release.xcconfig"; sourceTree = "<group>"; };
 		5F34EC931FEA2A850009E6FD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5FF94CF11FEAA9B800F70E05 /* LinearList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
+		5FF94CF21FEAA9B800F70E05 /* LinearList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinearList.m; sourceTree = "<group>"; };
+		5FF94CF41FEAAC2C00F70E05 /* StackAndQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
+		5FF94CF51FEAAC2C00F70E05 /* StackAndQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackAndQueue.m; sourceTree = "<group>"; };
 		8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoBucket_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1AA5EAB6529E604830855E /* Pods-DemoBucket-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBucket-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		EB3BFB631FC690EA00FCC168 /* MyRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRootTableViewController.h; sourceTree = "<group>"; };
@@ -99,6 +105,17 @@
 			name = SupportFiles;
 			sourceTree = "<group>";
 		};
+		5FF94CEF1FEAA8DA00F70E05 /* DataStructAndAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				5FF94CF11FEAA9B800F70E05 /* LinearList.h */,
+				5FF94CF21FEAA9B800F70E05 /* LinearList.m */,
+				5FF94CF41FEAAC2C00F70E05 /* StackAndQueue.h */,
+				5FF94CF51FEAAC2C00F70E05 /* StackAndQueue.m */,
+			);
+			path = DataStructAndAlgorithm;
+			sourceTree = "<group>";
+		};
 		EB3BFB6F1FC699D000FCC168 /* MyRootTableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +169,7 @@
 				EBB5CBBC1FD79A4100D91FB0 /* MyTabBarC.m */,
 				EBA10F1A1FC5B1CC00473E29 /* ViewController.h */,
 				EBA10F1B1FC5B1CC00473E29 /* ViewController.m */,
+				5FF94CEF1FEAA8DA00F70E05 /* DataStructAndAlgorithm */,
 				EB8860931FD65405000CC98B /* DynamicTest */,
 				EB3BFB6F1FC699D000FCC168 /* MyRootTableView */,
 				EBA10F341FC5BD4A00473E29 /* HFiles */,
@@ -327,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF94CF31FEAA9B800F70E05 /* LinearList.m in Sources */,
 				EBB5CBBF1FD8154200D91FB0 /* CodeDemo.m in Sources */,
 				EB3BFB681FC6967F00FCC168 /* MyRootTableVCDS.m in Sources */,
 				EBA10F221FC5B1CD00473E29 /* DemoBucket_OC.xcdatamodeld in Sources */,
@@ -339,6 +358,7 @@
 				EB88609C1FD68511000CC98B /* MyNavigationC.m in Sources */,
 				EB3BFB6E1FC699C500FCC168 /* MyRootTableViewCell.m in Sources */,
 				EBA10F2A1FC5B1CD00473E29 /* main.m in Sources */,
+				5FF94CF61FEAAC2C00F70E05 /* StackAndQueue.m in Sources */,
 				EBA10F191FC5B1CC00473E29 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
