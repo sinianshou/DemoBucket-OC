@@ -15,22 +15,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     MyRootTableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     UIViewController * toVC = nil;
-    NSMutableDictionary  *dataMDic = self.myRootTableViewController.dataMDic;
-    switch ([dataMDic.allKeys indexOfObject:cell.reuseIdentifier]) {
-//        case 0:
-//            toVC = [[DynamicAnimatorTest alloc] initWithDynamicAnimatorType:indexPath.row];
-//            break;
-            
-        default:
-            break;
+    if ([cell.restorationIdentifier isEqualToString:@"UIDynamicAnimator"]) {
+        toVC = [[DynamicAnimatorTest alloc] initWithDynamicAnimatorType:indexPath.row];
     }
     if (toVC) {
         [self.myRootTableViewController.navigationController pushViewController:toVC animated:YES];
     }
-//    if ([cell.reuseIdentifier isEqualToString:@"UIDynamicAnimator"]) {
-//        DynamicAnimatorTest *DAT = [[DynamicAnimatorTest alloc] initWithDynamicAnimatorType:indexPath.row];
-//        [self.myRootTableViewController.navigationController pushViewController:DAT animated:YES];
-//    }
 }
 
 

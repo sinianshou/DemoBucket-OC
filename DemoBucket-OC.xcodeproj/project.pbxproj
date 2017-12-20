@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		5F20C261F8C31B8CA070C6FF /* Pods-DemoBucket-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBucket-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC.release.xcconfig"; sourceTree = "<group>"; };
+		5F34EC931FEA2A850009E6FD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoBucket_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1AA5EAB6529E604830855E /* Pods-DemoBucket-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBucket-OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		EB3BFB631FC690EA00FCC168 /* MyRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRootTableViewController.h; sourceTree = "<group>"; };
@@ -82,6 +83,20 @@
 				5F20C261F8C31B8CA070C6FF /* Pods-DemoBucket-OC.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F34EC921FEA2A620009E6FD /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EBA10F251FC5B1CD00473E29 /* LaunchScreen.storyboard */,
+				EBA10F1D1FC5B1CD00473E29 /* Main.storyboard */,
+				EBA10F281FC5B1CD00473E29 /* Info.plist */,
+				EBA10F291FC5B1CD00473E29 /* main.m */,
+				EBA10F201FC5B1CD00473E29 /* DemoBucket_OC.xcdatamodeld */,
+				EBB5CBBE1FD8154200D91FB0 /* CodeDemo.m */,
+				5F34EC931FEA2A850009E6FD /* PrefixHeader.pch */,
+			);
+			name = SupportFiles;
 			sourceTree = "<group>";
 		};
 		EB3BFB6F1FC699D000FCC168 /* MyRootTableView */ = {
@@ -142,13 +157,8 @@
 				EBA10F341FC5BD4A00473E29 /* HFiles */,
 				EBA10F311FC5BAE000473E29 /* QuestionsCollection */,
 				EBA10F371FC5C48A00473E29 /* RunTime */,
+				5F34EC921FEA2A620009E6FD /* SupportFiles */,
 				EBA10F231FC5B1CD00473E29 /* Assets.xcassets */,
-				EBA10F251FC5B1CD00473E29 /* LaunchScreen.storyboard */,
-				EBA10F1D1FC5B1CD00473E29 /* Main.storyboard */,
-				EBA10F281FC5B1CD00473E29 /* Info.plist */,
-				EBA10F291FC5B1CD00473E29 /* main.m */,
-				EBA10F201FC5B1CD00473E29 /* DemoBucket_OC.xcdatamodeld */,
-				EBB5CBBE1FD8154200D91FB0 /* CodeDemo.m */,
 			);
 			path = "DemoBucket-OC";
 			sourceTree = "<group>";
@@ -466,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QG6YWQHVH;
+				GCC_PREFIX_HEADER = "/Users/easer/Projects/DemoBucket-OC/DemoBucket-OC/PrefixHeader.pch";
 				INFOPLIST_FILE = "DemoBucket-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Easer.DemoBucket-OC";
@@ -482,6 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QG6YWQHVH;
+				GCC_PREFIX_HEADER = "/Users/easer/Projects/DemoBucket-OC/DemoBucket-OC/PrefixHeader.pch";
 				INFOPLIST_FILE = "DemoBucket-OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Easer.DemoBucket-OC";

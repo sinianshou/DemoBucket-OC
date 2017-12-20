@@ -22,7 +22,9 @@
     MyRootTableViewCell* myRootTableViewCell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!myRootTableViewCell) {
         myRootTableViewCell = [[MyRootTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
+        myRootTableViewCell.restorationIdentifier?nil:(myRootTableViewCell.restorationIdentifier =identifier);
     }
+    
     NSArray* arr = [self getRowsArrInSection:indexPath.section];
     if (arr) {
         myRootTableViewCell.textLabel.text = [arr objectAtIndex:indexPath.row];
