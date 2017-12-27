@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5F4F3F521FEFBE5C0006CCE7 /* UIScrollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F3F511FEFBE5C0006CCE7 /* UIScrollVC.m */; };
 		5FA2015F1FF0FFC100A1DB5B /* WKWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2015E1FF0FFC100A1DB5B /* WKWebVC.m */; };
+		5FB143851FF21483009AC75D /* IphoneDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB143841FF21483009AC75D /* IphoneDeviceManager.m */; };
+		5FB34C051FF145E3008561E7 /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB34C041FF145E3008561E7 /* String.m */; };
 		5FF94CF31FEAA9B800F70E05 /* LinearList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF94CF21FEAA9B800F70E05 /* LinearList.m */; };
 		5FF94CF61FEAAC2C00F70E05 /* StackAndQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF94CF51FEAAC2C00F70E05 /* StackAndQueue.m */; };
 		C8A634116C7A09B403D19FE6 /* Pods_DemoBucket_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */; };
@@ -37,6 +39,11 @@
 		5F4F3F511FEFBE5C0006CCE7 /* UIScrollVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollVC.m; sourceTree = "<group>"; };
 		5FA2015D1FF0FFC100A1DB5B /* WKWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebVC.h; sourceTree = "<group>"; };
 		5FA2015E1FF0FFC100A1DB5B /* WKWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebVC.m; sourceTree = "<group>"; };
+		5FB143821FF21449009AC75D /* IphoneDeviceManagerMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneDeviceManagerMacro.h; sourceTree = "<group>"; };
+		5FB143831FF21483009AC75D /* IphoneDeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IphoneDeviceManager.h; sourceTree = "<group>"; };
+		5FB143841FF21483009AC75D /* IphoneDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneDeviceManager.m; sourceTree = "<group>"; };
+		5FB34C031FF145E3008561E7 /* String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		5FB34C041FF145E3008561E7 /* String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
 		5FF94CF11FEAA9B800F70E05 /* LinearList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
 		5FF94CF21FEAA9B800F70E05 /* LinearList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinearList.m; sourceTree = "<group>"; };
 		5FF94CF41FEAAC2C00F70E05 /* StackAndQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
@@ -129,6 +136,16 @@
 			path = WKWebView;
 			sourceTree = "<group>";
 		};
+		5FB143811FF21416009AC75D /* IphoneDeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+				5FB143821FF21449009AC75D /* IphoneDeviceManagerMacro.h */,
+				5FB143831FF21483009AC75D /* IphoneDeviceManager.h */,
+				5FB143841FF21483009AC75D /* IphoneDeviceManager.m */,
+			);
+			path = IphoneDeviceManager;
+			sourceTree = "<group>";
+		};
 		5FF94CEF1FEAA8DA00F70E05 /* DataStructAndAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +153,8 @@
 				5FF94CF21FEAA9B800F70E05 /* LinearList.m */,
 				5FF94CF41FEAAC2C00F70E05 /* StackAndQueue.h */,
 				5FF94CF51FEAAC2C00F70E05 /* StackAndQueue.m */,
+				5FB34C031FF145E3008561E7 /* String.h */,
+				5FB34C041FF145E3008561E7 /* String.m */,
 			);
 			path = DataStructAndAlgorithm;
 			sourceTree = "<group>";
@@ -193,6 +212,7 @@
 				EBB5CBBC1FD79A4100D91FB0 /* MyTabBarC.m */,
 				EBA10F1A1FC5B1CC00473E29 /* ViewController.h */,
 				EBA10F1B1FC5B1CC00473E29 /* ViewController.m */,
+				5FB143811FF21416009AC75D /* IphoneDeviceManager */,
 				5FA2015C1FF0FF8200A1DB5B /* WKWebView */,
 				5F4F3F4F1FEFBDED0006CCE7 /* UIScrollViews */,
 				5FF94CEF1FEAA8DA00F70E05 /* DataStructAndAlgorithm */,
@@ -371,7 +391,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB34C051FF145E3008561E7 /* String.m in Sources */,
 				5FF94CF31FEAA9B800F70E05 /* LinearList.m in Sources */,
+				5FB143851FF21483009AC75D /* IphoneDeviceManager.m in Sources */,
 				EBB5CBBF1FD8154200D91FB0 /* CodeDemo.m in Sources */,
 				EB3BFB681FC6967F00FCC168 /* MyRootTableVCDS.m in Sources */,
 				5FA2015F1FF0FFC100A1DB5B /* WKWebVC.m in Sources */,
