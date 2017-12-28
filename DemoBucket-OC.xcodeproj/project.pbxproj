@@ -11,6 +11,7 @@
 		5FA2015F1FF0FFC100A1DB5B /* WKWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2015E1FF0FFC100A1DB5B /* WKWebVC.m */; };
 		5FB143851FF21483009AC75D /* IphoneDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB143841FF21483009AC75D /* IphoneDeviceManager.m */; };
 		5FB34C051FF145E3008561E7 /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB34C041FF145E3008561E7 /* String.m */; };
+		5FC02BE61FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC02BE51FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.m */; };
 		5FF94CF31FEAA9B800F70E05 /* LinearList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF94CF21FEAA9B800F70E05 /* LinearList.m */; };
 		5FF94CF61FEAAC2C00F70E05 /* StackAndQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF94CF51FEAAC2C00F70E05 /* StackAndQueue.m */; };
 		C8A634116C7A09B403D19FE6 /* Pods_DemoBucket_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE5A471BEF50407997C50E7 /* Pods_DemoBucket_OC.framework */; };
@@ -44,6 +45,8 @@
 		5FB143841FF21483009AC75D /* IphoneDeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IphoneDeviceManager.m; sourceTree = "<group>"; };
 		5FB34C031FF145E3008561E7 /* String.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
 		5FB34C041FF145E3008561E7 /* String.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
+		5FC02BE41FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array_Matrice_GeneralizedTable.h; sourceTree = "<group>"; };
+		5FC02BE51FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Array_Matrice_GeneralizedTable.m; sourceTree = "<group>"; };
 		5FF94CF11FEAA9B800F70E05 /* LinearList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
 		5FF94CF21FEAA9B800F70E05 /* LinearList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinearList.m; sourceTree = "<group>"; };
 		5FF94CF41FEAAC2C00F70E05 /* StackAndQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				5FF94CF51FEAAC2C00F70E05 /* StackAndQueue.m */,
 				5FB34C031FF145E3008561E7 /* String.h */,
 				5FB34C041FF145E3008561E7 /* String.m */,
+				5FC02BE41FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.h */,
+				5FC02BE51FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.m */,
 			);
 			path = DataStructAndAlgorithm;
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				EBA10F2A1FC5B1CD00473E29 /* main.m in Sources */,
 				5F4F3F521FEFBE5C0006CCE7 /* UIScrollVC.m in Sources */,
 				5FF94CF61FEAAC2C00F70E05 /* StackAndQueue.m in Sources */,
+				5FC02BE61FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.m in Sources */,
 				EBA10F191FC5B1CC00473E29 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
