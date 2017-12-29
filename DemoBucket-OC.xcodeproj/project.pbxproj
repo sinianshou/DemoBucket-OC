@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F421A581FF66F4B00C7655F /* TreeAndBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F421A571FF66F4B00C7655F /* TreeAndBinaryTree.m */; };
 		5F4F3F521FEFBE5C0006CCE7 /* UIScrollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F3F511FEFBE5C0006CCE7 /* UIScrollVC.m */; };
 		5FA2015F1FF0FFC100A1DB5B /* WKWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2015E1FF0FFC100A1DB5B /* WKWebVC.m */; };
 		5FB143851FF21483009AC75D /* IphoneDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB143841FF21483009AC75D /* IphoneDeviceManager.m */; };
@@ -36,6 +37,8 @@
 /* Begin PBXFileReference section */
 		5F20C261F8C31B8CA070C6FF /* Pods-DemoBucket-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBucket-OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoBucket-OC/Pods-DemoBucket-OC.release.xcconfig"; sourceTree = "<group>"; };
 		5F34EC931FEA2A850009E6FD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5F421A561FF66F4B00C7655F /* TreeAndBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeAndBinaryTree.h; sourceTree = "<group>"; };
+		5F421A571FF66F4B00C7655F /* TreeAndBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeAndBinaryTree.m; sourceTree = "<group>"; };
 		5F4F3F501FEFBE5C0006CCE7 /* UIScrollVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollVC.h; sourceTree = "<group>"; };
 		5F4F3F511FEFBE5C0006CCE7 /* UIScrollVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollVC.m; sourceTree = "<group>"; };
 		5FA2015D1FF0FFC100A1DB5B /* WKWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebVC.h; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				5FB34C041FF145E3008561E7 /* String.m */,
 				5FC02BE41FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.h */,
 				5FC02BE51FF5486C006F53C1 /* Array_Matrice_GeneralizedTable.m */,
+				5F421A561FF66F4B00C7655F /* TreeAndBinaryTree.h */,
+				5F421A571FF66F4B00C7655F /* TreeAndBinaryTree.m */,
 			);
 			path = DataStructAndAlgorithm;
 			sourceTree = "<group>";
@@ -411,6 +416,7 @@
 				EBB5CBBD1FD79A4100D91FB0 /* MyTabBarC.m in Sources */,
 				EB88609C1FD68511000CC98B /* MyNavigationC.m in Sources */,
 				EB3BFB6E1FC699C500FCC168 /* MyRootTableViewCell.m in Sources */,
+				5F421A581FF66F4B00C7655F /* TreeAndBinaryTree.m in Sources */,
 				EBA10F2A1FC5B1CD00473E29 /* main.m in Sources */,
 				5F4F3F521FEFBE5C0006CCE7 /* UIScrollVC.m in Sources */,
 				5FF94CF61FEAAC2C00F70E05 /* StackAndQueue.m in Sources */,
