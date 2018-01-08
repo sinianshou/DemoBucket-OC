@@ -83,4 +83,64 @@ typedef struct TBTNode
     struct TBTNode *rchild;
 }TBTNode;
 
+
+void VisitTBTNode(TBTNode *bt);
+
+//中序遍历对二叉树线索化的递归算法如下
+void InThread(TBTNode *p, TBTNode *pre);
+//主程序中序遍历中序线索二叉树
+void createInThread(TBTNode *root);
+//遍历中序线索二叉树
+TBTNode *First(TBTNode *p);
+TBTNode *Next(TBTNode *p);
+void InorderTBTNode(TBTNode *root);
+//前序线索二叉树
+void preThreadTBTNode(TBTNode *p, TBTNode *pre);
+//在前序线索二叉树上执行中序遍历的算法如下
+void preorderTBTNode(TBTNode *root);
+//后序线索二叉树
+void postThread(TBTNode *p, TBTNode *pre);
+/*
+ 说明：对于后序线索二叉树的遍历，一般多为手工找出当前节点的后继，因此可记住以下三点：
+ 1. 若节点x是二叉树的跟，则后继为空
+ 2. 若节点x是其双亲的右孩子，或是其双亲的左孩子且其双亲没有右子树，则其后继即为双亲节点
+ 3. 若节点x是其双亲的左孩子，且其双亲有右子树，则其后继为双亲右子树上按后序遍历出的第一个节点
+ */
+/*
+ 树和森林的遍历
+ 
+ 1. 树的遍历
+ a. 先序遍历
+ i. 访问根节点A
+ ii. 访问A的第一棵子树，访问子树时先访问根节点B
+ iii. 访问B的第一个孩子E
+ iv. 访问B的第二个孩子F
+ v. 访问A的第二棵子树，访问子树时先访问根节点C
+ vi. 访问C的第一个孩子G
+ vii. 访问A的第三棵子树，访问子树时先访问根节点D
+ viii. 访问D的第一个孩子H
+ ix. 访问D的第二个孩子I
+ x. 访问D的第三个孩子J
+ 现需遍历的结果为：ABEFCGDHIJ
+ 
+ b. 后序遍历
+ i. 访问根节点A的第一棵子树，访问子树时先访问根节点B的第一个孩子E
+ ii. 访问B的第二个孩子F
+ iii. 访问B
+ iv. 访问A的第二棵子树，访问子树时先访问根节点C的第一个孩子G
+ v. 访问C
+ vi. 访问A的第三课子树，访问子树时先访问根节点D的第一个孩子H
+ vii. 访问D的第二个孩子I
+ viii. 访问D的第三个孩子J
+ ix. 访问D
+ x. 最后访问根节点A
+ 后序遍历的结果为：EFBGCHIJDA
+ 
+ 2. 森林的遍历
+ a. 先序遍历
+ 先访问森林中第一棵树的根节点，然后先序遍历第一棵树中根节点的子树，最后先序遍历森林中除第一棵树意外的其他树
+ b. 后序遍历
+ 后序遍历第一棵树中根节点的子树，然后访问第一棵树根节点，最后后序遍历森林中除第一棵树以后的森林。
+ */
+
 @end

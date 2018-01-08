@@ -95,6 +95,7 @@ void level(BTNode *p)
 //二叉树遍历算法的改进
 //递归函数比较低效，原因在于系统帮助调用了一个栈并做了诸如保护现场和恢复现场等复杂的操作，才使得遍历可以用非常简洁的代码实现。
 //二叉树深度优先遍历算法的非递归实现
+
 //1. 先序遍历
 void preorderNonrecursion(BTNode *bt)
 {
@@ -174,4 +175,94 @@ void postorderNonrecursion(BTNode *bt)
     }
 }
 
+void VisitTBTNode(TBTNode *bt){
+    printf("bt.data is %d", bt->data);
+}
+
+//中序遍历对二叉树线索化的递归算法如下
+void InThread(TBTNode *p, TBTNode *pre){
+    if(p != NULL){
+        InThread(p->lchild, pre);
+        if(p->lchild == NULL){
+            p->lchild = p;
+            p->ltag = 1;
+        }
+        if(pre != NULL && pre->rchild == NULL){
+            p->rchild = p;
+            pre->rtag = 1;
+        }
+        pre = p;
+        p = p->rchild;
+        InThread(p, pre);
+    }
+}
+//主程序中序遍历中序线索二叉树
+void createInThread(TBTNode *root){
+    TBTNode *pre = NULL;
+    if(root != NULL){
+        InThread(root, pre);
+        pre->rchild = NULL;
+        pre->rtag = 1;
+    }
+}
+//遍历中序线索二叉树
+TBTNode *First(TBTNode *p){
+    while(p->ltag == 0){
+        p = p->lchild;
+    }
+    return p;
+}
+TBTNode *Next(TBTNode *p){
+    if(p->rtag == 0)
+        return First(p->rchild);
+    else
+        return p->rchild;
+}
+void InorderTBTNode(TBTNode *root){
+    for(TBTNode *p=First(root); p!=NULL; p=Next(p) )
+        VisitTBTNode(p);
+}
+//前序线索二叉树
+void preThreadTBTNode(TBTNode *p, TBTNode *pre){
+    if(p!=NULL){
+        if(p->lchild == NULL){
+            p->lchild = pre;
+            p->ltag = 1;
+        }
+        if(pre!= NULL && pre->rchild == NULL){
+            pre->rchild = p;
+            pre->rtag = 1;
+        }
+        if(p->ltag == 0)
+            preThreadTBTNode(p->lchild, pre);
+        if(p->rtag == 0)
+            preThreadTBTNode(p->rchild, pre);
+    }
+}
+//在前序线索二叉树上执行中序遍历的算法如下
+void preorderTBTNode(TBTNode *root){
+    if(root != NULL){
+        TBTNode *p = root;
+        while(p != NULL){
+            while(p->ltag == 0){
+                VisitTBTNode(p);
+                p = p->lchild;
+            }
+            VisitTBTNode(p);
+            p = p->rchild;
+        }
+    }
+}
+//后序线索二叉树
+void postThread(TBTNode *p, TBTNode *pre){
+    if(p != NULL){
+        postThread(p->lchild, pre);
+        postThread(p->rchild, pre);
+        if(p->lchild == NULL){
+            pre->rchild = p;
+            pre->rtag = 1;
+        }
+        pre = p;
+    }
+}
 @end
